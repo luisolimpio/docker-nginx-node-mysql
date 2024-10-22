@@ -37,7 +37,7 @@ services:
     healthcheck:
       test: ["CMD", "curl", "-f", "localhost:3000"]
       interval: 5s
-      timeout: 10s
+      timeout: 30s
       retries: 3
 
   reverse-proxy:
